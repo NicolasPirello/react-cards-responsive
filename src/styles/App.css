@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background: linear-gradient(
+    180deg,
+    rgba(238, 69, 64, 1) 0%,
+    rgba(199, 44, 65, 1) 15%,
+    rgba(128, 19, 54, 1) 30%,
+    rgba(81, 10, 50, 1) 45%,
+    rgba(45, 20, 44, 1) 100%
+  );
+}
+
+.appContainer{
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-general img{
+  width: 100%;
+  height: 200px;
+}
+
+.card-general img:hover{
+  transform: scale(1.8);
+  transition: all .5s;
+}
+
+.cardImageOverflow{
+  overflow: hidden;
+}
+
+.card-general{
+  border-radius: 3px;
+  min-width: 200px;
+  max-width: 320px;
+  margin: 20px;
+  background-color: rgb(78, 78, 82);
+}
+
+.card-general:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273);
+  transition: all .5s;
+}
+
+.cardContainer{
+  padding: 20px 30px 30px;
+}
+
+.cardContainer h2{
+  color: white;
+  padding-bottom: 10px;
+}
+
+.cardContainer p{
+  color: rgb(177, 176, 175);
+  padding-bottom: 20px;
+  height: 130px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+
+.cardContainer button {
+  cursor: pointer;
+  height: 35px;
+  width: 50%;
+  background-color: transparent;
+  border: solid 1px gray;
+  border-radius: 2px;
+  color: white;
+}
+
+.cardContainer button:hover{
+  transition: all .5s;
+  background-color: gray;
+}
+
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
