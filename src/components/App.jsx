@@ -42,6 +42,7 @@ function App() {
               description= {card.description}
               image={card.image}
               url={card.url}
+              key={i}
               />
             )
 

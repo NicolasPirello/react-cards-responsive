@@ -1,6 +1,5 @@
-import image1 from "../images/image1.jpg"
-
 function Card ( {title, description, image, url} ) {
+
     return (
 
         <div className="card-general">
@@ -17,6 +16,7 @@ function Card ( {title, description, image, url} ) {
 
         </div>
     )
+
 }
 
 export default Card;
