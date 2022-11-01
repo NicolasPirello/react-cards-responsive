@@ -2,7 +2,7 @@ function Card ( {title, description, image, url} ) {
 
     return (
 
-        <div className="card-general">
+        <div className="card-general animate__animated animate__fadeInUp">
 
             <div className="cardImageOverflow">
                 <img src={image} alt="" />
