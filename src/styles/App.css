@@ -16,7 +16,7 @@
 }
 
 .appContainer{
-  max-width: 1200px;
+  /* max-width: 1200px; */
   min-height: 100vh;
   margin: auto;
   display: flex;
@@ -31,6 +31,7 @@
 .card-general img{
   width: 100%;
   height: 200px;
+  object-fit: cover;
 }
 
 .card-general img:hover{
@@ -45,7 +46,7 @@
 .card-general{
   border-radius: 3px;
   min-width: 200px;
-  max-width: 320px;
+  max-width: 370px;
   margin: 20px;
   background-color: rgb(78, 78, 82);
 }
